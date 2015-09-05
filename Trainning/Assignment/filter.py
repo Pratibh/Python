@@ -1,9 +1,11 @@
 __author__ = 'pratibh'
 
-dict={1:{'Ram':40,'Shyam':50}}
-for k,v in dict.iteritems():
-    for k1,v1 in dict.iteritems():
-        print(k)
-        print(v)
-        print (k1)
-        print(v1)
+def func(d) :
+    x=d.keys()
+    print "The passed students are:"
+    for k in x :
+        if(d[k]>=40) :
+            print k
+
+di ={"sagar":90,"pratibh":32,"arun":89,"shankar":91,"ramesh":39,"Hari":40}
+func(di)
