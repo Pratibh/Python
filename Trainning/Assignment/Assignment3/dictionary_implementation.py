@@ -3,7 +3,7 @@ from sys import exit
 import ast
 
 
-class Person(object):
+class Item(object):
     def __init__(self):
         self.name = ""
         self.price = ""
@@ -24,7 +24,7 @@ class Person(object):
             print self.dictionary[name]
 
 
-p = Person()
+p = Item()
 
 while True:
     print "Type:\n\t*read to read data base\n\t*write to write to data base\n\t*exit to exit"
